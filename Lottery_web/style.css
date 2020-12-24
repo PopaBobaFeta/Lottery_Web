@@ -1,0 +1,807 @@
+.pos_nav{
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+}
+.nav_color{
+	background-color: #038cfc !important;
+}
+.collapse a{
+	color: white !important;
+	font-weight: 500 !important;
+}
+nav a{
+	color: white !important;
+	font-weight: 500 !important;
+}
+.btn_nav_color{
+	background-color: white !important;
+}
+.drp_dwn_color a{
+	color: #038cfc !important;
+}
+.col_pos{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.game_feature_row{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+}
+.game_of_the_day_wrapper{
+	width: 65%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #16f7f0;
+}
+.game_of_the_day_box{
+	background-color: #16f7f0;
+	width: 65%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.game_day_header{
+	height: 10%;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center; 
+}
+.game_day_header p{
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;
+	color: #0225b3;
+	font-weight: bold;
+}
+.game_name {
+	width: 80%;
+	height: 10%;
+	display: flex;
+	justify-content: flex-start;
+}
+.game_name_p{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 25px;
+	font-family: 'Rubik', sans-serif;
+	color: #0225b3;
+	font-weight: bold;
+}
+.game_content{
+	margin-top: 0px;
+	width: 100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+.game_content p{
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+}
+.btn_color{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold; 
+}
+.btn_div{
+	height: 10%;
+	width: 80%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+.check_results_box{
+	width: 35%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-image: url("happy_woman.jpg");
+	background-repeat: no-repeat;
+}
+.check_results_box p{
+	padding: 0;
+	margin: 0;
+	margin-left: 5px;
+	color: white;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+}
+.check_res_btn{
+	width: 20%;
+	background-color: #038cfc;
+	font-size: 14px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	border-radius: 3px;
+	margin-left: 5px;
+}
+.check_res_btn button{
+	color: white;
+}
+.carousel_div{
+	width: 80%;
+	height: 400px;
+}
+.carousel_wrapper{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.owl_carousel{
+	width: 80% !important;
+	height: 100% !important;
+}
+.modal_header p{
+	font-size: 25px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	color: #038cfc;
+	text-align: left;
+}
+.modal_header{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	width: 80%;
+	height: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.game_card{
+	height: 370px;
+	width: 85%;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+}
+.game_box{
+	height: 90%;
+	width: 90%;
+	margin: 20px;
+	/*background-color: black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.game_box_header{
+	height: 5%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.game_box_header p{
+	max-width: 50%;
+	font-size: 15px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+.game_box_name{
+	margin-top: 5px;
+	width: 100%;
+	height: 10%;
+	justify-content: flex-start;
+}
+.game_box_name p{
+	font-size: 30px;
+	line-height: 25px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	color: white;
+	text-align: left;
+}
+.game_box_content{
+	margin-top: 40px;
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+}
+.game_box_content p{
+	font-size: 50px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 0 #820110;
+}
+.carousel_btn{
+	margin-top: 15px;
+	width: 40%;
+	height: 20%;
+	margin-bottom: 10px;
+}
+.win_prize{
+	margin-top: 100px;
+	width: 100%;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+.win_prize_wrapper{
+	width: 80%;
+	border-radius: 200px 0px 200px 0px;
+	-moz-border-radius: 200px 0px 200px 0px;
+	-webkit-border-radius: 200px 0px 200px 0px;
+	border: 0px solid #000000;
+	background: rgba(75,75,232,1);
+	background: -moz-linear-gradient(-45deg, rgba(75,75,232,1) 0%, rgba(75,75,232,0.99) 23%, rgba(75,75,232,0.99) 33%, rgba(148,23,238,0.99) 70%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(75,75,232,1)), color-stop(23%, rgba(75,75,232,0.99)), color-stop(33%, rgba(75,75,232,0.99)), color-stop(70%, rgba(148,23,238,0.99)));
+	background: -webkit-linear-gradient(-45deg, rgba(75,75,232,1) 0%, rgba(75,75,232,0.99) 23%, rgba(75,75,232,0.99) 33%, rgba(148,23,238,0.99) 70%);
+	background: -o-linear-gradient(-45deg, rgba(75,75,232,1) 0%, rgba(75,75,232,0.99) 23%, rgba(75,75,232,0.99) 33%, rgba(148,23,238,0.99) 70%);
+	background: -ms-linear-gradient(-45deg, rgba(75,75,232,1) 0%, rgba(75,75,232,0.99) 23%, rgba(75,75,232,0.99) 33%, rgba(148,23,238,0.99) 70%);
+	background: linear-gradient(135deg, rgba(75,75,232,1) 0%, rgba(75,75,232,0.99) 23%, rgba(75,75,232,0.99) 33%, rgba(148,23,238,0.99) 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4be8', endColorstr='#9417ee', GradientType=1 );
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.win_prize_header{
+	width: 80%;
+	height: 50%;
+}
+.win_prize_header p{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	color: white;
+	transition: 0.5s ease;
+	line-height: 80px;
+}
+.win_prize_header p.larger{
+	font-size: 60px;
+	transition: 0.5s ease;
+
+}
+.footer{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	background-color: #038cfc;
+	font-size: 60px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	color: white;
+}
+.content{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+.content_wrapper{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	background-color: #fff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content_wrapper p{
+	margin: 0 auto;
+	font-size: 20px;
+	color: black;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: 400;
+}
+/*GAMES PHP PAGE STYLES STARTING HERE ------------------------------------------------------------------------------------- */
+.games_container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.games_row{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 100px;
+}
+.games_row_box{
+	width: 100%;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.games_row_box_header{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+}
+.games_row_box_header p{
+	margin: 0 auto;
+	font-size: 25px;
+	color: #fc034e;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+}
+.games_row_box_header hr{
+	margin-left: 10px;
+	background-color: #fc034e;
+	height: 2px;
+	margin-bottom: 3px;
+	flex-grow: 100; 
+}
+.games_row_box_content{
+	width: 60%;
+	height: 90%;
+	display: flex;
+	flex-direction: row;
+}
+.actual_box{
+	margin-top: 10px;
+	height: 100%;
+	width: 100%;
+	background-color: #fc034e;
+	border-bottom-right-radius: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.games_row_box_title{
+	width: 55%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.games_row_box_title_day{
+	height: 20%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+}
+.games_row_box_title_day p{
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	text-align: right;
+}
+.games_row_box_title_game{
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+.game_name{
+	font-size: 60px;
+	line-height: 60px;
+	color: #fff;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	text-shadow: 0px 0px 0 #820110;
+	text-align: center;
+}
+.games_row_box_info{
+	width: 40%;
+	height: 100%;
+	border-bottom-right-radius: 120px;
+}
+.game_info{
+	margin: 5px;
+	width: 90%;
+	height: 90%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border-radius: 12px 12px 120px 12px;
+	box-shadow: 2px 2px 0 gray;
+	-webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+}
+.question_p{
+	margin-left: 5px;
+	font-size: 20px;
+	color: black;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+.ask_p{
+	margin-left: 5px;
+	font-size: 15px;
+	color: black;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: 400;
+	white-space: pre-wrap;
+}
+.games_btn{
+	height: 30%;
+	width: 40%;
+	margin-left: 5px;
+}
+.games_btn button{
+	border-bottom-right-radius: 30px !important;
+}
+/*REGISTRATION PHP PAGE STYLES STARTS RIGTH HERE --------------------------------------------------------------------------------*/
+.reg_header{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.reg_header p{
+	font-size: 60px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	white-space: pre-wrap;
+	color: black;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.reg_header span{
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	white-space: pre-wrap;
+	color: grey;
+}
+#reg_btn{
+	height: 100%; 
+	width: 100%;
+	margin: 0 auto;
+	font-size: 100px;
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	white-space: pre-wrap;
+	color: #fff;
+}
+/* RESULT PAGE STARTS HERE ------------------------------------------------------------------------------------------------------*/
+.res_game{
+	width: 100%;
+	height: 40px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.res_game p.common{
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	white-space: pre-wrap;
+	font-size: 30px;
+	color: #038cfc;
+}
+.res_game p.uncommon{
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	white-space: pre-wrap;
+	font-size: 30px;
+	color: #fc034e;
+}
+/* ADMIN PANEL PAGE STARTS HERE -------------------------------------------------------------------------------------------------*/
+.nav_link_color{
+	font-family: 'Rubik', sans-serif;	
+	font-weight: bold;
+	white-space: pre-wrap;
+	font-size: 15px;
+	color: black !important;
+	border: 1px solid black;
+	margin: 10px;
+}
+.nav_link_color:hover{
+	background-color: grey;
+	color: #fff !important;
+	transition: 0.5s;
+}
+
+/* Game styles starts right here */
+.game_header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 150px;
+	background-color: #16f7f0;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 70px;
+	color: white;
+	justify-content: center;
+	align-items: center;
+}
+.lucky_numbers{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 50px;
+}
+.lucky_numbers_results{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.lucky_number{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: blue;
+	height: 40px;
+	width: 40px;
+	font-size: 40px;
+	transition: 0.5s;
+	visibility: hidden;
+}
+.lotto_card{
+	width: 100%;
+	height: 400px;
+	background-color: aliceblue;
+	margin-top: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.lotto_card_header{
+	background-color: #fc034e;
+	width: 100%;
+	height: 70px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+	display: flex;
+	justify-content: flex-start;
+}
+.lotto_card_main{
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.lotto_card_row{
+	margin: 5px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100px;
+	justify-content: space-between;
+
+}
+.lotto_card_elem{
+	height: 98px;
+	width: 98px;
+	color: black;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	border: 1px solid black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition: 0.5s;
+}
+
+/*PREGAME page styles start right here*/
+.preGame_main{
+	width: 100%;
+	min-height: 650px;
+	max-height: 1200px;
+	display: flex;
+	flex-direction: column;
+	background-color: aliceblue;
+}
+.preGame_row{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	border: 2px solid black;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 60px;
+	justify-content: center;
+	align-items: center;
+}
+.btn_info_custom{
+	height: 60px;
+}
+.btn_info_custom p{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+.playLink{
+	height: 50px;
+	width: 50%;
+	cursor: pointer;
+	background-color: #fc034e;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 12px;
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+.game_comments{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 95%;
+	min-height: 600px;
+	max-height: 900px;
+	margin: 25px;
+	background-color: white;
+	border-radius: 6px;
+}
+.game_comments form{
+	margin: 0 auto;
+	width: 100%;
+	height: 120px;
+}
+.comment_write{
+	width: 95%;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	background-color: lightblue;
+	margin: 10px;
+	border-radius: 6px;
+}
+.comment_auth{
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	color: black;
+	font-size: 24px;
+}
+.comment_textarea{
+	width: 70%;
+	height: 90%;
+}
+.comment_textarea textarea{
+	margin: 5px;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.comment_button{
+	width: auto;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+}
+.comment_btn{
+	width: 100px;
+	height: 50px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	background-color: #fc034e;
+	border: none;
+	border-radius: 12px;
+	transition: 0.5s;
+}
+.comment_btn:hover{
+	color: white;
+	background-color: black;
+}
+.comment{
+	max-height: 120px;
+	width: 95%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: lightblue;
+	margin: 20px;
+	margin-bottom: 5px;
+	border-radius: 6px;
+}
+.comment_text{
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	height: 100px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 40px;
+	background-color: white;
+	border-radius: 6px;
+	min-width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.comm_auth{
+	max-height: 120px;
+	width: 50px;
+	margin: 10px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+#win_box{
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%;
+	/*opacity: 0.4;*/
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	justify-content: center;
+	align-items: center;
+}
+#win_card{
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	border-radius: 6px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
